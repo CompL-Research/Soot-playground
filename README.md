@@ -1,7 +1,4 @@
-# SOOT PLAYGROUND
-
-|  <img src="image.png" alt="logo" width="120"> | **SOOT PLAYGROUND**  
-|:----------------------:|:--------------------|
+ # SOOT PLAYGROUND  <img src="soot-logo.png" alt="logo" width="50"> 
 
 This repository helps you to write various small analysis to know more about Java Programs.
 * Clone the repository: 
