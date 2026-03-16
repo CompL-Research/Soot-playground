@@ -2,7 +2,7 @@
 
 This repository helps you to write various small analysis to know more about Java Programs.
 * Clone the repository: 
-    `Command: git clone git@github.com:CompL-Research/Soot-playground.git`
+    `git clone git@github.com:CompL-Research/Soot-playground.git`
 
 After cloning this repository, you might need few more steps before running the actual analysis.
 
@@ -34,16 +34,16 @@ This repo currently provides four benchmark-suites:
 
 `Step 2:` Download a suitable jdk (any jdk8 suggested). (`jdk-binaries` folder)
     
-    Command: git clone git@github.com:adityaanand7/jdk-binaries.git
-             cd jdk-binaries
-             unzip jdk1.8.0_301.zip
+    git clone git@github.com:adityaanand7/jdk-binaries.git
+    cd jdk-binaries
+    unzip jdk1.8.0_301.zip
 `Step 3:` Once you are done with both the steps, you are good do go. The `src` directory contains all the required code. You can add your new analysis in `analysis` folder and can invoke them from the `main/Main.java.`
 
 `Step 4:`
 For runnning you programs. You can go to the scripts folder and run:
 
-    Command: cd scripts 
-             bash benchmark.sh olddacapo avrora
+    cd scripts 
+    bash benchmark.sh olddacapo avrora
 The first arugument specifies the `benchmark suite` and the second specifies the `benchmark name`.<br>
 **Benchmark Suites possible options:**
 ``` 
